@@ -27,6 +27,7 @@ requirements:
   run:
     - cython >=0.24.1
     - future
+    - setuptools
     - {{ pin_compatible("numpy") }}
 
 test:
