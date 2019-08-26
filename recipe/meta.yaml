@@ -10,7 +10,7 @@ source:
   sha256: ca0e461fe42fc8b7e0b481cda33aac247d86b5fb817b5076e20abc90dd577797
 
 build:
-  number: 1
+  number: 2
   script: "{{ PYTHON }} -m pip install . -vv"
   skip: True  # [not linux or py<37]
 
@@ -23,12 +23,10 @@ requirements:
     - numpy >=1.0
     - cython >=0.24.1
     - future
-    - gpaw
     - setuptools
   run:
     - cython >=0.24.1
     - future
-    - gpaw
     - {{ pin_compatible("numpy") }}
 
 test:
