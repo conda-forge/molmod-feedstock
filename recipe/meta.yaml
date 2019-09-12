@@ -10,9 +10,8 @@ source:
   sha256: e94520945c066c26494f20bbf7f85711458acc56b22da7b0da9e48b5b1a2ec35
 
 build:
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
-  skip: True  # [py==36]
 
 requirements:
   build:
@@ -25,6 +24,7 @@ requirements:
     - future
     - setuptools
   run:
+    - python
     - cython >=0.24.1
     - future
     - setuptools
