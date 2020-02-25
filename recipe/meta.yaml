@@ -25,6 +25,7 @@ requirements:
     - setuptools
   run:
     - python
+    - pip
     - cython >=0.24.1
     - future
     - setuptools
