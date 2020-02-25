@@ -25,6 +25,7 @@ requirements:
     - setuptools
   run:
     - python
+    - pip
     - cython >=0.24.1
     - future
     - setuptools
@@ -33,6 +34,8 @@ requirements:
 test:
   imports:
     - molmod
+  commands:
+    - pip check
 
 about:
   home: http://molmod.github.io/molmod
