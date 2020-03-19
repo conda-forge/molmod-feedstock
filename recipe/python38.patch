@@ -16,9 +16,9 @@ index 2e6ad9a..25556d0 100644
  from builtins import range
 -import time
 +try:
-+     from time import process_time
-+ except ImportError:
-+     from time import clock as process_time
++    from time import process_time
++except ImportError:
++    from time import clock as process_time
  
  import numpy as np
  
@@ -50,9 +50,9 @@ index 2e6ad9a..25556d0 100644
  import getpass
 -import time
 +try:
-+     from time import process_time
-+ except ImportError:
-+     from time import clock as process_time
++    from time import process_time
++except ImportError:
++    from time import clock as process_time
  import codecs
  import locale
  import functools
