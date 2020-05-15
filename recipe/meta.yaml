@@ -39,7 +39,7 @@ test:
 
 about:
   home: http://molmod.github.io/molmod
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE.txt
   summary: MolMod is a collection of molecular modelling tools for python.
