@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/{{ name }}/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 08cc526080aee04659ff5d08f8d26ab6973afef62becb9ae21cb11bb5b632177
+  sha256: 2acda5210d6b54134ee19dfc7f41be21f5adbda1402d714c5480995ef9e655c3
   patches:
     - numpy.patch
 
