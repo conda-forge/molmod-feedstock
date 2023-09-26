@@ -10,6 +10,7 @@ source:
   sha256: 2acda5210d6b54134ee19dfc7f41be21f5adbda1402d714c5480995ef9e655c3
   patches:
     - numpy.patch
+    - setup.patch
 
 build:
   number: 9
