@@ -22,13 +22,13 @@ requirements:
     - python
     - pip
     - numpy >=1.16.0
-    - cython >=0.24.1
+    - cython >=0.24.1,<3
     - future
     - setuptools
   run:
     - python
     - pip
-    - cython >=0.24.1
+    - cython >=0.24.1,<3
     - future
     - setuptools
     - {{ pin_compatible("numpy") }}
