@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: molmod
-  version: "1.4.8"
+  version: 1.4.8
 
 package:
   name: ${{ name|lower }}
